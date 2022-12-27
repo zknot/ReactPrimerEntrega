@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactPrimerEntrega/static/css/main.2c27fb69.css",
+    "main.js": "/ReactPrimerEntrega/static/js/main.8ba334af.js",
+    "index.html": "/ReactPrimerEntrega/index.html",
+    "main.2c27fb69.css.map": "/ReactPrimerEntrega/static/css/main.2c27fb69.css.map",
+    "main.8ba334af.js.map": "/ReactPrimerEntrega/static/js/main.8ba334af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c27fb69.css",
+    "static/js/main.8ba334af.js"
+  ]
+}
