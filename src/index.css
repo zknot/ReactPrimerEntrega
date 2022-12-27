@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+nav .a {
+  background-color: black;
+}
+
+.bi-cart2{
+  color: red;
+}
+
+.counter {
+  color: white;
+  background-color: red;
+  border-radius: 2px;
+  padding: 5px;
+}
