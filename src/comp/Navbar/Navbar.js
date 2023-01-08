@@ -9,7 +9,7 @@ export const Navbar = () => {
     return(
         <header className="header">
             <div className="header__container">
-            <h1 className="header__logo">OVER SHIRTS</h1>
+            <h1 className="header__logo">OH SHIRTZ!</h1>
 
             <nav className="header__nav">
                 <a className ="header__link" href="#">Home</a>
