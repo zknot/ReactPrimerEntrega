@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "nombre": "MKI",
+        "descripcion": "Remera Mortal Kombat I",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220126/OhShirtz/WBM923-HA__58275_idjkv6.jpg",
+        "precio": 2438,
+        "category": "gaming"
+    },
+    {
+        "id": 2,
+        "nombre": "WW",
+        "descripcion": "Remera Wonder Woman",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220074/OhShirtz/WW_xs3j5r.jpg",
+        "precio": 9926,
+        "category": "DC"
+    },
+    {
+        "id": 3,
+        "nombre": "SG",
+        "descripcion": "Remera Space Ghost",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220074/OhShirtz/SG_nm13qg.jpg",
+        "precio": 8990,
+        "category": "animado"
+    },
+    {
+        "id": 4,
+        "nombre": "Batman",
+        "descripcion": "Remera Batman 8bits",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220074/OhShirtz/BM_fhr7j2.jpg",
+        "precio": 6673,
+        "category": "DC"
+    },
+    {
+        "id": 5,
+        "nombre": "BOH",
+        "descripcion": "Remera Bureau of Alcohol",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220074/OhShirtz/BU_nlilg4.jpg",
+        "precio": 9603,
+        "category": "Funny"
+    },
+    {
+        "id": 6,
+        "nombre": "$$",
+        "descripcion": "Remera Monopoly",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/MN_udaa4c.jpg",
+        "precio": 6924,
+        "category": "Funny"
+    },
+    {
+        "id": 7,
+        "nombre": "Cat",
+        "descripcion": "Remera Pet Sematary",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/PS_l9owhv.jpg",
+        "precio": 2361,
+        "category": "Peliculas"
+    },
+    {
+        "id": 8,
+        "nombre": "Jason",
+        "descripcion": "Friday the 13th",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/FR131_jqvrco.jpg",
+        "precio": 9571,
+        "category": "Peliculas"
+    },
+    {
+        "id": 9,
+        "nombre": "LOTR",
+        "descripcion": "Remera Smaug",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/HB2_c4vx38.jpg",
+        "precio": 2976,
+        "category": "Peliculas"
+    },
+    {
+        "id": 10,
+        "nombre": "LOTR1",
+        "descripcion": "Remera El Hobbit",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/HB1_m4fogv.jpg",
+        "precio": 5481,
+        "category": "Peliculas"
+    },
+    {
+        "id": 11,
+        "nombre": "DX",
+        "descripcion": "Remera Dexter",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/DX_qv20rz.jpg",
+        "precio": 7512,
+        "category": "Dibujos"
+
+    },
+    {
+        "id": 12,
+        "nombre": "Jason I",
+        "descripcion": "Remera Friday the 13th Oldie",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/FR13_whpcfh.jpg",
+        "precio": 1386,
+        "category": "Peliculas"
+    }
+]

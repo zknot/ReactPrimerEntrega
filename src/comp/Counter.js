@@ -1,7 +1,7 @@
 
 export const Counter = () => {
     return (
-        <i class="counter bi bi-0-square"></i>
+        <i className="bi bi-0-square"></i>
     );
 }
 

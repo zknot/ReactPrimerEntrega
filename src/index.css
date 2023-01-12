@@ -12,18 +12,40 @@ code {
     monospace;
 }
 
-
 nav .a {
   background-color: black;
+  
+}
+
+header .header__logo{
+  margin: 15px;
 }
 
 .bi-cart2{
   color: red;
 }
 
-.counter {
-  color: white;
-  background-color: red;
-  border-radius: 2px;
-  padding: 5px;
+section {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.contador{
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin: 5px;
+}
+
+.col-3 img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.container h3 {
+  display: flex;
+  justify-content: center;  
 }

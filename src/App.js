@@ -1,23 +1,38 @@
 import { Navbar } from "./comp/Navbar/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { User } from './comp/Users/Users'
-import { ItemListContainer } from "./comp/ItemListContainer";
-
+import ItemListContainer from "./comp/ItemListContainer/ItemListContainer";
+import ItemDetail from "./comp/ItemDetail/ItemDetail";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Nosotros from "./comp/Nosotros/Nosotros";
+import Productos from "./comp/Productos/Productos";
 
 
 function App() {
   return (
-    <div>
-    
-    <Navbar />
 
-    <itemDetailContainer />
+    <BrowserRouter>
 
-      {/* <User nombre = "Martin" talle = "L" edad = {34} />
+        
+      <Navbar />
+      
+      <Routes>
+        
+        <Route path="/" element= {<ItemListContainer />} />
+        <Route path="/productos" element= {<Productos />} />
+        <Route path="/productos/:categoryId" element= {<ItemListContainer />} />
+        <Route path="/nosotros" element= {<Nosotros />} />
 
-      <ItemListContainer greeting="Hola Martin" /> */}
 
-    </div>
+      </Routes>
+
+
+      {/* <ItemDetail /> */}
+
+      {/* <ItemListContainer /> */}
+
+            
+    </BrowserRouter>
+   
   );
 }
 

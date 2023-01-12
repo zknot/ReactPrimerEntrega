@@ -1,14 +1,32 @@
- 
+import { useEffect, useState } from "react"
+import { pedirDatos, pedirItemPorId } from "../../helpers/pedirDatos"
 
-const itemDetailContainer = () => {
+
+
+const ItemDetailContainer = ({itemId}) => {
+
+    const [item, setItem] = useState (null)
+
+    useEffect (() =>{
+        pedirItemPorId(itemId)
+        .then((data) => {
+            setItem(data)
+
+        })
+    }, [itemId])
 
     return (
+        <div className="container my-5">
 
-        <div>
-            <h2>Item Detail Container</h2>
+            {
+
+                item && <ItemDetail item={item}/>
+
+            }            
+
         </div>
-
     )
+
 }
 
-export default itemDetailContainer
+export default ItemDetailContainer
