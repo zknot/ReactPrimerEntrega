@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ReactPrimerEntrega/public/index.html/static/css/main.fc6e40ff.css",
-    "main.js": "/ReactPrimerEntrega/public/index.html/static/js/main.bf98f0c9.js",
-    "index.html": "/ReactPrimerEntrega/public/index.html/index.html",
-    "main.fc6e40ff.css.map": "/ReactPrimerEntrega/public/index.html/static/css/main.fc6e40ff.css.map",
-    "main.bf98f0c9.js.map": "/ReactPrimerEntrega/public/index.html/static/js/main.bf98f0c9.js.map"
+    "main.css": "/ReactPrimerEntrega/static/css/main.fc6e40ff.css",
+    "main.js": "/ReactPrimerEntrega/static/js/main.bf98f0c9.js",
+    "index.html": "/ReactPrimerEntrega/index.html",
+    "main.fc6e40ff.css.map": "/ReactPrimerEntrega/static/css/main.fc6e40ff.css.map",
+    "main.bf98f0c9.js.map": "/ReactPrimerEntrega/static/js/main.bf98f0c9.js.map"
   },
   "entrypoints": [
     "static/css/main.fc6e40ff.css",
