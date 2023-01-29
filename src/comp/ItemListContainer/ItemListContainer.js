@@ -1,24 +1,17 @@
 
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import MOCK_DATA from "../../data/MOCK_DATA.json"
+import { pedirDatos } from "../../helpers/pedirDatos"
 import ItemList from "../ItemList/ItemList"
+
 
 const ItemListContainer = () => {
 
     const [productos, setProductos] = useState([])
     const { categoryId } = useParams()
+    console.log(categoryId);
 
-
-    const pedirDatos = () => {
-        return new Promise ((resolve, reject) => {
-            setTimeout ( () => {
-                resolve(MOCK_DATA) 
-            }, 2000)
-        })
-        
-
-}
+       
     useEffect(() =>{
         pedirDatos()
             .then((res) => {
@@ -31,7 +24,7 @@ const ItemListContainer = () => {
             .catch((err) => {
                 console.log(err)
             })
-    }, [])
+    }, [categoryId])
 
     return (
         <div>
@@ -39,5 +32,9 @@ const ItemListContainer = () => {
         </div>
     )
 }
+
+
+
+
 
 export default ItemListContainer

@@ -5,15 +5,17 @@
         "descripcion": "Remera Mortal Kombat I",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220126/OhShirtz/WBM923-HA__58275_idjkv6.jpg",
         "precio": 2438,
-        "category": "gaming"
+        "category": "gaming",
+        "stock": 20
     },
     {
         "id": 2,
-        "nombre": "WW",
+        "nombre": "Wonder Woman",
         "descripcion": "Remera Wonder Woman",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220074/OhShirtz/WW_xs3j5r.jpg",
         "precio": 9926,
-        "category": "DC"
+        "category": "dc",
+        "stock": 10
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "descripcion": "Remera Space Ghost",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220074/OhShirtz/SG_nm13qg.jpg",
         "precio": 8990,
-        "category": "animado"
+        "category": "animado",
+        "stock": 25
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "descripcion": "Remera Batman 8bits",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220074/OhShirtz/BM_fhr7j2.jpg",
         "precio": 6673,
-        "category": "DC"
+        "category": "dc",
+        "stock": 15
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "descripcion": "Remera Bureau of Alcohol",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220074/OhShirtz/BU_nlilg4.jpg",
         "precio": 9603,
-        "category": "Funny"
+        "category": "funny",
+        "stock": 30
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "descripcion": "Remera Monopoly",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/MN_udaa4c.jpg",
         "precio": 6924,
-        "category": "Funny"
+        "category": "funny",
+        "stock": 35
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "descripcion": "Remera Pet Sematary",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/PS_l9owhv.jpg",
         "precio": 2361,
-        "category": "Peliculas"
+        "category": "peliculas",
+        "stock": 20
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "descripcion": "Friday the 13th",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/FR131_jqvrco.jpg",
         "precio": 9571,
-        "category": "Peliculas"
+        "category": "peliculas",
+        "stock": 40
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "descripcion": "Remera Smaug",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/HB2_c4vx38.jpg",
         "precio": 2976,
-        "category": "Peliculas"
+        "category": "peliculas",
+        "stock": 20
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "descripcion": "Remera El Hobbit",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/HB1_m4fogv.jpg",
         "precio": 5481,
-        "category": "Peliculas"
+        "category": "peliculas",
+        "stock": 35
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "descripcion": "Remera Dexter",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/DX_qv20rz.jpg",
         "precio": 7512,
-        "category": "Dibujos"
+        "category": "dibujos",
+        "stock": 50
 
     },
     {
@@ -94,6 +105,34 @@
         "descripcion": "Remera Friday the 13th Oldie",
         "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1673220073/OhShirtz/FR13_whpcfh.jpg",
         "precio": 1386,
-        "category": "Peliculas"
+        "category": "peliculas",
+        "stock": 45
+    },
+    {
+        "id": 13,
+        "nombre": "Bermuda 1",
+        "descripcion": "Bermuda cargo black",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1674567117/OhShirtz/Bermuda3_nlffxd.png",
+        "precio": 2500,
+        "category": "bermuda",
+        "stock": 15
+    },
+    {
+        "id": 14,
+        "nombre": "Bermuda 2",
+        "descripcion": "Bermuda cargo green",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1674567117/OhShirtz/Bermuda2_tcx2kg.png",
+        "precio": 3500,
+        "category": "bermuda",
+        "stock": 10
+    },
+    {
+        "id": 15,
+        "nombre": "Bermuda 3",
+        "descripcion": "Bermuda cargo beige",
+        "img": "https://res.cloudinary.com/dyetlrz2w/image/upload/v1674567117/OhShirtz/Bermuda1_mmatmh.png",
+        "precio": 4500,
+        "category": "bermuda",
+        "stock": 25
     }
 ]

@@ -1,16 +1,15 @@
-import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom"
 
-
-const Item = ({prod}) => {
+const Item = ({nombre, img, descripcion, precio, category, id}) => {
     return (
-        <div key = {prod.id} className = "col-3">
-                <img src ={prod.img} alt={prod.nombre}/>
-                <h4>{prod.nombre}</h4>
+        <div className = "col-3 m-3">
+                <img src ={img} alt={nombre}/>
+                <h4>{nombre}</h4>
                 {/* <p>{prod.descripcion}</p> */}
-                <p>Precio: <b>${prod.precio}</b></p>
-                <small>Categoria: {prod.category} </small>
+                <p>Precio: <b>${precio}</b></p>
+                <small>Categoria: {category} </small>
                 <br />
-                <Button variant="dark">Detalle</Button>
+                <Link to={`/detail/${id}`} className="btn btn-dark">Detalle</Link>
         </div>
     )
 

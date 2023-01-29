@@ -4,7 +4,7 @@ export const pedirDatos = () => {
     return new Promise ((resolve, reject) => {
         setTimeout( () => {
             resolve (MOCK_DATA)
-        }, 2000)
+        }, 1000)
     })
 }
 
@@ -13,7 +13,13 @@ export const pedirItemPorId = (id) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             const item = MOCK_DATA.find((el) => el.id === id)
-            resolve(item)
+            if (item) {
+                resolve(item)
+            } else {
+                reject({
+                    error: "No se encontró ese procuto"
+                })
+            }
         }, 2000)
     })
 }
