@@ -3,6 +3,7 @@ import ItemCount from "../itemCount/itemCount"
 import { useState } from "react"
 import { useCartContext } from "../Context/CartContext"
 import { Link } from "react-router-dom"
+import './ItemDetail.scss'
 // import Select from "../itemCount/Select"
 
 // const [cantidad, setCantidad] = useState(1)
@@ -50,7 +51,7 @@ const handleAgregar = () => {
     return (
         <div>
             <h3>{nombre}</h3>
-            <img src={img} alt={nombre}/>
+            <img className="img" src={img} alt={nombre}/>
             <br />
             <small>Categoria: {category}</small>
             <h4>{descripcion}</h4>
