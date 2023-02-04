@@ -1,20 +1,42 @@
 .login-screen{
     width: 100%;
     height: 100vh;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+
     .login {
         width: 600px;
         padding: 30px;
         border-radius: 10px;
-        background-color: white;
+        background-color: #282A3A;
+
+        h2{
+            color: white;
+            text-align: center;
+            font-weight: 600;
+        }
     }
+
+    .img-login {
+        border-radius: 10px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+
 
     .error{
         color:red;
         font-weight: 700;
         font-size: 1rem;
+    }
+    .register-link{
+        display: flex;
+        justify-content: right;
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+        text-decoration: none;
     }
 }

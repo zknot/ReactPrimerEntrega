@@ -19,7 +19,6 @@ import './ItemDetail.scss'
 const ItemDetail = ( {id, img, nombre, category, descripcion, precio, stock} ) => {
 
     const { agregarAlCarrito, isInCart } = useCartContext()
-    console.log( isInCart (id) );
 
     const [cantidad, setCantidad] = useState(1)
 
@@ -49,7 +48,7 @@ const handleAgregar = () => {
 
 
     return (
-        <div>
+        <div className="item_detail">
             <h3>{nombre}</h3>
             <img className="img" src={img} alt={nombre}/>
             <br />

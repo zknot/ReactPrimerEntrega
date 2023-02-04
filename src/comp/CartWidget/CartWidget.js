@@ -5,10 +5,10 @@ import './CartWidget.scss'
 
 const CartWidget = () => {
 
-    const { totalCantidad } = useCartContext()
+    const { totalCantidad, cart } = useCartContext()
 
     return (
-        <Link to="/cart" className='cart-widget'>
+        <Link to="/cart" className={`cart-widget ${cart.length > 0 ? 'cart-widget-active' : '' }`}>
         <FaCartPlus />
         <span>{totalCantidad()}</span>
         </Link>
