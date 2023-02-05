@@ -28,12 +28,6 @@ const Checkout = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        //validacion
-        // if (values.nombre.length < 2){
-        //     alert("Nombre Invalido")
-        //     return
-        // }
-
         const orden = {
             cliente: values,
             items: cart,
@@ -49,9 +43,8 @@ const Checkout = () => {
             })
             .catch((error) => { console.log(error)
             })
-
-    }
-
+        }
+    
     if (orderId){
         return(
             <div className="container checkout my-5" >
@@ -62,14 +55,14 @@ const Checkout = () => {
 
             </div>
 
-
         )
     }
 
     if (cart.length === 0){
         return <Navigate to="/" />
     }
-    
+
+
     return(
         <div className="container my-5" >
             <h2>Terminar mi compra</h2>
