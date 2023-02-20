@@ -1,13 +1,23 @@
 .cart-widget{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
     color: white;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1rem;
     visibility: hidden;
     opacity: 0;
     transition: .3s ease-in-out all;
+    text-decoration: none;
 }
 
 .cart-widget-active{
     visibility: visible;
     opacity: 1;
+}
+
+span{
+    display: flex;
+    text-decoration: none;
+    
 }

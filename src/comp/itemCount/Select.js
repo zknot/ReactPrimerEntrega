@@ -1,5 +1,3 @@
-//[{value: '', text: '' }]
-
 
 const Select = ({options, set}) => {
 

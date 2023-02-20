@@ -1,22 +1,57 @@
 .container{
-
+    h2{
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
     .detail-prod{
+        align-items: center;
+        width: 50%;
+        background-color: #495057;
 
+        h4{
+            justify-content: center;
+            margin: 2rem;
+            color: white;
+        }
         .img-small{
+            display: flex;
+            margin: 0 auto;
             width: 10rem;
             height: 10rem;
 
         }
-    color: black;
         .parr{
-            color: black;
+            color: white;
         }
-}
+        
+        .btn-danger{
+            align-items: inherit;
+        }
+    }
+
+    .btn-success{
+        display: flex;
+        margin: 0 auto;
+        width: 10rem;
+        height: 4rem;
+    }
+
     .imgEmpty{
         display: flex;
 
     }
-    .btn {
+    .btn-danger {
         margin: 1rem;
+        justify-content: center;
     }
+
+
+    h4{
+        color: white;
+        display: flex;
+        margin: 0 auto;
+    }
+
+
 }

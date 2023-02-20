@@ -31,20 +31,20 @@ if (cart.length === 0) {
                     <img className="img-small" alt={item.name} src={item.img} />
                     <p className="parr">Cantidad: {item.cantidad}</p>
                     <p className="parr">Precio: ${item.precio * item.cantidad} </p>
-                    <button onClick={() => removerItem(item.id)} className="btn btn-danger"><BsFillTrashFill /></button>
+                    <button onClick={() => removerItem(item.id)} className="btn btn-danger remove"><BsFillTrashFill /></button>
                     <br/>
                     <Link className="btn btn-success" to= "/checkout" >Terminar mi compra</Link>
+                    
                 </div>
 
 
-                ))
-                    
+                ))      
             }
 
             <h4>Total: $ {totalCart()} </h4>
 
         <button className="btn btn-danger" onClick={emptyCart}>Vaciar carrito</button>
-        
+
         </div>
     )
     

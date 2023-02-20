@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Navigate } from "react-router-dom"
 import { useCartContext } from "../Context/CartContext"
 import { db } from "../../firebase/config"
-import { collection, addDoc } from "firebase/firestore"
+import { collection, addDoc, doc, updateDoc, getDoc } from "firebase/firestore"
 import { Link } from "react-router-dom"
 import './Checkout.scss'
 
@@ -28,6 +28,7 @@ const Checkout = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
+
         const orden = {
             cliente: values,
             items: cart,
@@ -35,6 +36,7 @@ const Checkout = () => {
         }
         
         const ordersRef = collection(db, 'orders')
+        
 
         addDoc(ordersRef, orden)
             .then((doc) => {
@@ -43,8 +45,9 @@ const Checkout = () => {
             })
             .catch((error) => { console.log(error)
             })
-        }
-    
+
+    }
+
     if (orderId){
         return(
             <div className="container checkout my-5" >
@@ -55,14 +58,14 @@ const Checkout = () => {
 
             </div>
 
+
         )
     }
 
     if (cart.length === 0){
         return <Navigate to="/" />
     }
-
-
+    
     return(
         <div className="container my-5" >
             <h2>Terminar mi compra</h2>

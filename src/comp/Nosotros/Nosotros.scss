@@ -1,0 +1,23 @@
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h2{
+        color: white;
+        font-weight: 700;
+    }
+
+    p{
+        color: white;
+        justify-content: center;
+    }
+
+    .btn{
+        width: 10rem;
+        
+    }
+
+}

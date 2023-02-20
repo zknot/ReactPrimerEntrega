@@ -1,6 +1,36 @@
 
 
 .col-3{
-    background-color: #383838;
-    border-radius: 5px;
+
+    background-color: gray;
+    border-radius: 10px;
+    padding: 20px;
+
+    img{
+        display: flex;
+        border-radius: 10px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    h4{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    p{
+        display: flex;
+        color: white;
+        margin: 0 auto;
+    }
+
+    br{
+        color: white;
+    }    
+
+    small{
+        display: flex;
+        color: white;
+    }
 }

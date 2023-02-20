@@ -1,9 +1,9 @@
 import Item from "../Item/Item"
-import "./ItemList.scss"
+import './ItemList.scss'
 
 const ItemList = ({productos}) => {
     return(
-        <div className="container my-5">
+        <div className="main__list container my-5">
             <h3>Bienvenidos a Oh Shirtz!</h3>
             <br/>
 

@@ -1,4 +1,4 @@
-
+import "./itemCount.scss"
 
 const ItemCount = ({cantidad, setCantidad, max, onAdd}) => {
 
@@ -11,7 +11,7 @@ const ItemCount = ({cantidad, setCantidad, max, onAdd}) => {
         }
 
     return(
-        <div>
+        <div className="contador">
             <button onClick={handleRestar} 
             className={cantidad > 1 ? 'btn btn-dark' : 'btn btn-danger'} 
             disabled={cantidad === 1} >-</button>

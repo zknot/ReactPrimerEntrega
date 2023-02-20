@@ -10,9 +10,7 @@ const ItemDetailContainer = () => {
     const { itemId } = useParams()
 
     useEffect (() => {
-        // ref
         const docRef = doc(db, "productos", itemId)
-        //peticion async
         getDoc(docRef)
             .then(doc => {
                setItem({...doc.data(), id: doc.id} ); 
